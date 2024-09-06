@@ -396,11 +396,11 @@ const app = express()
 const port = process.env.PORT || 4000;
 
 app.get('/', (req, res) => {
-  res.send('Hello Globe!')
+  res.send('Hello Metro!')
 })
 
 app.listen(port, () => {
-  console.log(`GLOBAL-MD is listening on port ${port}`)
+  console.log(`METRO-MD is listening on port ${port}`)
 })
 
 startXeonBot()
